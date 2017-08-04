@@ -1,13 +1,8 @@
 /**
- * Created by weijiaPro on 2017/8/1.
+ * Created by weijiaPro on 2017/8/3.
  */
 import React from 'react';
-import  ReactDOM from 'react-dom';
-
-class App extends React.Component{
-    render(){
-        return (<div>Hello World</div>);
-    }
-}
+import ReactDOM from 'react-dom';
+import App from 'app.jsx';
 
 ReactDOM.render(<App />, document.getElementById('app'));
