@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>React Demo1</title>
+    <script src="../../assets/react.min.js"></script>
+    <script src="../../assets/react-dom.min.js"></script>
+    <script src="../../assets/browser.min.js"></script>
 </head>
 <body>
-
+    <div id="demo1"></div>
 </body>
 </html>
+<script type="text/babel">
+    ReactDOM.render(
+            <h1>Hello World!</h1>,
+            document.getElementById('demo1')
+    )
+</script>
