@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6486f868-d344-4f73-b2f4-92030b19615c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/browser.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/react-dom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/react.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/browser.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/browser.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-1/src/index.html" afterPath="$PROJECT_DIR$/demo-1/src/index.html" />
     </list>
@@ -21,11 +20,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-1/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="203">
+              <caret line="7" column="84" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="browser.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/browser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,6 +65,7 @@
         <option value="$PROJECT_DIR$/assets/react-dom.min.js" />
         <option value="$PROJECT_DIR$/assets/browser.min.js" />
         <option value="$PROJECT_DIR$/demo-1/src/index.html" />
+        <option value="$PROJECT_DIR$/assets/browser.js" />
       </list>
     </option>
   </component>
@@ -229,7 +239,7 @@
       <workItem from="1500681157774" duration="1206000" />
       <workItem from="1501641953023" duration="391000" />
       <workItem from="1501644522987" duration="1162000" />
-      <workItem from="1501815688148" duration="4734000" />
+      <workItem from="1501815688148" duration="6124000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1500611376506</created>
@@ -270,7 +280,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7964000" />
+    <option name="totallyTimeSpent" value="9354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1004" extended-state="6" />
@@ -438,7 +448,7 @@
         <state relative-caret-position="145">
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
-            <element signature="e#45#71#0" expanded="true" />
+            <element signature="e#45#71#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -451,18 +461,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/browser.min.js">
+    <entry file="file://$PROJECT_DIR$/demo-1/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="41" column="14024" lean-forward="false" selection-start-line="41" selection-start-column="14024" selection-end-line="41" selection-end-column="14024" />
+        <state relative-caret-position="203">
+          <caret line="7" column="84" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-1/src/index.html">
+    <entry file="file://$PROJECT_DIR$/assets/browser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
