@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6486f868-d344-4f73-b2f4-92030b19615c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/browser.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-1/src/index.html" afterPath="$PROJECT_DIR$/demo-1/src/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-1/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="522">
+              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -228,7 +228,7 @@
       <workItem from="1500681157774" duration="1206000" />
       <workItem from="1501641953023" duration="391000" />
       <workItem from="1501644522987" duration="1162000" />
-      <workItem from="1501815688148" duration="6279000" />
+      <workItem from="1501815688148" duration="6517000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1500611376506</created>
@@ -265,11 +265,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501818550081</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="useless">
+      <created>1502417679665</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502417679666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9509000" />
+    <option name="totallyTimeSpent" value="9747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1004" extended-state="6" />
@@ -302,9 +309,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="useless" />
     <MESSAGE value="config setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="config setting" />
+    <MESSAGE value="useless" />
+    <option name="LAST_COMMIT_MESSAGE" value="useless" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -468,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-1/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="522">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding />
         </state>
       </provider>
