@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Demo2</title>
+    <script src="../assets/react.min.js"></script>
+    <script src="../assets/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js" charset="UTF-8"></script>
+</head>
+<body>
+    <div id="demo5"></div>
+</body>
+</html>
+<script type="text/babel">
+    let NodeList = React.createClass({
+        render: function () {
+            return (
+                    <ol>
+                        {
+                            React.Children.map(this.props.children, function (child) {
+                                return <li>{child}</li>;
+                            })
+                        }
+                    </ol>
+            )
+        }
+    });
+
+    ReactDOM.render(
+            <NodeList>
+                <span>Hello</span>
+                <span>Children</span>
+            </NodeList>,
+        document.getElementById('demo5')
+    )
+</script>

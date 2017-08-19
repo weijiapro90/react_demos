@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Demo2</title>
+    <script src="../assets/react.min.js"></script>
+    <script src="../assets/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js" charset="UTF-8"></script>
+</head>
+<body>
+    <div id="demo3"></div>
+</body>
+</html>
+<script type="text/babel">
+    var arr = [
+        <h1>First element</h1>,
+        <h2>Second element</h2>,
+    ];
+
+    ReactDOM.render(
+            <div>{arr}</div>,
+        document.getElementById('demo3')
+    )
+</script>
