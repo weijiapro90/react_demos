@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Demo2</title>
+    <script src="../assets/react.min.js"></script>
+    <script src="../assets/react-dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js" charset="UTF-8"></script>
+</head>
+<body>
+    <div id="demo9"></div>
+</body>
+</html>
+<script type="text/babel">
+    let Input = React.createClass({
+        getInitialState: function () {
+            return {value : 'hello!'};
+        },
+
+        render: function () {
+            let value = this.state.value;
+            return (
+                    <div>
+                        <input type="text" value={value} onChange={this.handleChange} />
+                        <p>{value}</p>
+                    </div>
+            )
+        },
+
+        handleChange: function (event) {
+            this.setState({value: event.target.value});
+        }
+    });
+
+    ReactDOM.render(
+        <Input/>,
+        document.getElementById('demo9')
+    )
+</script>
