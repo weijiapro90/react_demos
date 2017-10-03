@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>State and LC</title>
+    <script src="../assets/react.min.js"></script>
+    <script src="../assets/react-dom.min.js"></script>
+    <script src="../assets/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js" charset="UTF-8"></script>
+</head>
+<body>
+    <div id="demo-pro-4"></div>
+</body>
+</html>
+<script type="text/babel">
+
+    /**
+     * version 1.0
+     */
+    function tick(){
+        ReactDOM.render(
+            <Clock date = {new Date()} />,
+            document.getElementById('demo-pro-44444444')
+        )
+    }
+
+    function Clock(props) {
+        return (
+                <div>
+                    <h1>Hello, world!</h1>
+                    <h2>It is {props.date.toLocaleTimeString()}.</h2>
+                </div>
+        )
+    }
+    setInterval(tick, 1000);
+
+
+
+
+    /**
+     * version 2.0  using ES6 Class
+     */
+    class Clock2 extends React.Component{
+        render() {
+            return (
+                <div>
+                    <h1>Hello, world!</h1>
+                    <h2>It is {this.props.date.toLocaleTimeString()}.</h2>
+                </div>
+            )
+        }
+    }
+
+
+    /**
+     * version 3.0 using local state instead of props
+     */
+    class ClockState extends React.Component{
+        constructor(props) {
+            super(props);
+            this.state = {date: new Date()};
+        }
+        render(){
+            return (
+                    <div>
+                        <h1>It is  {this.state.date.toLocaleTimeString()} now!</h1>
+                    </div>
+            )
+        }
+    }
+    ReactDOM.render(
+        <ClockState/>,
+        document.getElementById('demo-pro-4')
+    );
+
+
+
+    /**
+     * version 4.0 using lifecycle hooks
+     */
+    class ClockLc extends React.Component{
+        constructor(props) {
+            super(props);
+            this.state = {date: new Date()}
+        }
+
+        componentDidMount() {
+            this.timerID = setInterval(
+                () => this.tick(), 1000
+            )
+        }
+
+        componentWillUnmount() {
+            clearInterval(this.timerID);
+        }
+
+        tick() {
+            this.setState({
+                date: new Date()
+            })
+        }
+
+        render() {
+            return (
+                    <h1> version 4: {this.state.date.toLocaleTimeString()}</h1>
+            )
+        }
+    }
+
+    ReactDOM.render(
+        <ClockLc/>,
+        document.getElementById('demo-pro-4')
+    )
+</script>
