@@ -112,7 +112,7 @@
         }
 
         render(){
-            const scale = this.state.scale; 
+            const scale = this.state.scale;
             const temperature = this.state.temperature;
             const celsius = scale === 'f' ? convertTemp(temperature, toCelsius) : temperature;
             const fahrenheit = scale === 'c' ? convertTemp(temperature, toFahrenheit) : temperature;
