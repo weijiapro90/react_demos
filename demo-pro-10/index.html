@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Composition and Inheritance</title>
+    <script src="../assets/react.min.js"></script>
+    <script src="../assets/react-dom.min.js"></script>
+    <script src="../assets/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.js" charset="UTF-8"></script>
+</head>
+<body>
+    <div id="demo-pro-10"></div>
+</body>
+</html>
+<script type="text/babel">
+    //Containment
+    //hint: take a look about usage of {props.children}
+    function FancyBoerder(props) {
+        return (
+                <div className={'fancyBorder-' + props.color}>
+                    {props.children}
+                </div>
+        )
+    }
+
+    function WelcomeDialog() {
+        return (
+                <FancyBoerder color="blue">
+                    <h1>Welcome</h1>
+                </FancyBoerder>
+        )
+    }
+
+
+    //Containment version 2
+    function SplitPane(props) {
+        return (
+            <div>
+                <div className="split-left">
+                    {props.left}
+                </div>
+                <div className="split-right">
+                    {props.right}
+                </div>
+            </div>
+        )
+    }
+
+
+    function App() {
+        return (
+                <SplitPane left={<WelcomeDialog/> }>
+
+                </SplitPane>
+        )
+    }
+
+
+
+</script>
