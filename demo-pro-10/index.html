@@ -14,4 +14,46 @@
 </html>
 <script type="text/babel">
 
+    //Containment
+    //hint: take a look about usage of {props.children}
+    function FancyBoerder(props) {
+        return (
+                <div className={'fancyBorder-' + props.color}>
+                    {props.children}
+                </div>
+        )
+    }
+
+    function WelcomeDialog() {
+        return (
+                <FancyBoerder color="blue">
+                    <h1>Welcome</h1>
+                </FancyBoerder>
+        )
+    }
+
+
+    //Containment version 2
+    function SplitPane(props) {
+        return (
+            <div>
+                <div className="split-left">
+                    {props.left}
+                </div>
+                <div className="split-right">
+                    {props.right}
+                </div>
+            </div>
+        )
+    }
+
+
+    function App() {
+        return (
+                <SplitPane left={<WelcomeDialog/> }>
+
+                </SplitPane>
+        )
+    }
+
 </script>
